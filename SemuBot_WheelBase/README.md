@@ -11,10 +11,20 @@ https://www.mouser.ee/ProductDetail/Texas-Instruments/DRV8353FSRTAR?qs=hd1VzrDQE
  DI025N06PT-AQ 
  https://www.mouser.ee/ProductDetail/Diotec-Semiconductor/DI025N06PT-AQ?qs=Y0Uzf4wQF3lNF%252Ba3rVyVBQ%3D%3D
 
-### Oscillator
+#### Oscillator
 
 830205889709
 https://www.mouser.ee/ProductDetail/Wurth-Elektronik/830205889709?qs=hWgE7mdIu5QkPZnGbsg1Rg%3D%3D
+
+#### Terminal block connector for 24V from battery
+
+ TB003-500-P02BE
+
+https://www.mouser.ee/ProductDetail/Same-Sky/TB003-500-P02BE?qs=vLWxofP3U2yAT9CFQJ%2FCaw%3D%3D
+
+
+
+
 
 ### USB C connector
 
@@ -23,10 +33,26 @@ https://www.mouser.ee/ProductDetail/Amphenol-FCI/10155435-00011LF?qs=vHuUswq2%25
 ### LDO Voltage Regulator
 https://www.mouser.ee/ProductDetail/onsemi/NCP164CSN330T1G?qs=xZ%2FP%252Ba9zWqbi%2FAyy5UtoRw%3D%3D
 
+### B5B-XH-A(LF)(SN) HALL Sensor connectors
 
-### MCU STM32U575CIT6Q
 
-https://www.mouser.ee/ProductDetail/STMicroelectronics/STM32U575CIT6Q?qs=DRkmTr78QAT0UsRl49Wtdg%3D%3D
+https://www.mouser.ee/ProductDetail/JST-Commercial/B5B-XH-ALFSN?qs=cdbOS8ANM9ApoXpxtybURg%3D%3D
+
+### ESD Protection
+
+PRTR5V0U2X,215
+
+https://www.mouser.ee/ProductDetail/Nexperia/PRTR5V0U2X215?qs=LOCUfHb8d9sDkgY4cRj8Lw%3D%3D
+
+### Phase connectors for motors
+
+1984620
+
+https://www.snapeda.com/parts/1984620/Phoenix%20Contact/view-part/?ref=search&t=1984620
+
+
+
+
 
 
 
