@@ -5114,12 +5114,6 @@
 		(uuid "4137accf-f4cf-4e4e-bf94-25693b71b236")
 	)
 	(junction
-		(at 142.24 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4947b4da-c6b7-49eb-9984-e96f28b43945")
-	)
-	(junction
 		(at 118.11 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5214,6 +5208,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cab6ba07-ec81-4ecd-8edf-cd22cdb84b40")
+	)
+	(junction
+		(at 142.24 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4b78963-729c-433e-bd6a-6e080e4f3aa9")
 	)
 	(junction
 		(at 20.32 95.25)
@@ -5471,6 +5471,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 29.21) (xy 105.41 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8c8c73-4eb1-487b-aa5b-2a8eb2bdf3b3")
+	)
+	(wire
+		(pts
 			(xy 113.03 54.61) (xy 113.03 40.64)
 		)
 		(stroke
@@ -5608,6 +5618,16 @@
 			(type default)
 		)
 		(uuid "223e21c3-7ba3-497a-82fd-0f73d368db85")
+	)
+	(wire
+		(pts
+			(xy 105.41 38.1) (xy 105.41 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d63de9-c8de-4cfb-b895-5c77d2f12c23")
 	)
 	(wire
 		(pts
@@ -5901,7 +5921,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 175.26) (xy 147.32 175.26)
+			(xy 137.16 175.26) (xy 142.24 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6171,6 +6191,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 38.1) (xy 116.84 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16a082f-3ba2-4cb5-8a7b-e22abd3e06dd")
+	)
+	(wire
+		(pts
 			(xy 139.7 130.81) (xy 135.89 130.81)
 		)
 		(stroke
@@ -6298,16 +6328,6 @@
 			(type default)
 		)
 		(uuid "b0962b8b-3ced-4e2e-93a3-644925567f17")
-	)
-	(wire
-		(pts
-			(xy 137.16 175.26) (xy 142.24 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b15370d8-7c8c-4a4d-bc47-c208d5a6c3a2")
 	)
 	(wire
 		(pts
@@ -6511,6 +6531,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 175.26) (xy 147.32 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c2a058-e1e3-4cc8-b49e-3dfd01b50167")
+	)
+	(wire
+		(pts
 			(xy 20.32 95.25) (xy 26.67 95.25)
 		)
 		(stroke
@@ -6548,6 +6578,16 @@
 			(type default)
 		)
 		(uuid "da27561e-a7f5-435b-b8ae-d5338e438da0")
+	)
+	(wire
+		(pts
+			(xy 116.84 29.21) (xy 116.84 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8eb0a0-7288-4dd1-8444-4644582ceaa9")
 	)
 	(wire
 		(pts
@@ -8236,6 +8276,73 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2496bfca-2867-4f14-b576-a9273551f377")
+		(property "Reference" "R19"
+			(at 108.966 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 107.442 33.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 103.632 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "035862e2-d044-4f4c-b3ed-a8342e4fe301")
+		)
+		(pin "2"
+			(uuid "f8169d91-a296-4ced-aa8d-000dfe964daa")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -10466,76 +10573,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 142.24 179.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67c4076e-2cde-4809-8be7-ac3562b4dabe")
-		(property "Reference" "D1"
-			(at 146.05 179.3874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 146.05 181.9274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 142.24 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 142.24 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b97e6507-12db-45de-83af-efb6d010aa9e")
-		)
-		(pin "1"
-			(uuid "6483c967-5fdf-48f8-a187-4538e8f85278")
-		)
-		(instances
-			(project ""
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 161.29 24.13 0)
 		(unit 1)
@@ -10597,6 +10634,71 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 116.84 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71866e39-1048-4707-9ae6-ae2e72c3d2bb")
+		(property "Reference" "#PWR081"
+			(at 116.84 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 116.84 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 116.84 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fc99814-5750-4f5b-b6f3-a82e8e90cef6")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -10930,6 +11032,76 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 105.41 24.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bb7aa00-ab81-4709-9957-f02e5ecd5d4b")
+		(property "Reference" "D8"
+			(at 109.22 24.4474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 109.22 26.9874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 105.41 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 105.41 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a265e46f-2956-4fb9-b7f7-9a4fc4cfb99b")
+		)
+		(pin "1"
+			(uuid "997a82a2-731c-4d3a-a526-8eb8bfc294ab")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -11400,6 +11572,72 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "912096ef-675e-4c7b-92f9-4ec97f445b57")
+		(property "Reference" "#PWR082"
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "567f38e2-95c0-42d2-98ec-d940714b8141")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -12301,6 +12539,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 116.84 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b68b5b37-83d5-4158-be44-7362790ea4c5")
+		(property "Reference" "R18"
+			(at 120.396 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.2K"
+			(at 118.872 33.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 115.062 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7d8d0b5-5cfa-4166-b587-c1bc59877dc7")
+		)
+		(pin "2"
+			(uuid "ea32c7dd-7278-477a-aa30-7c38e0ed09d3")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 140.97 24.13 0)
 		(unit 1)
@@ -12561,6 +12866,76 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 142.24 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c39b65ad-b2d3-4a35-a76f-dd07bc62f86d")
+		(property "Reference" "D1"
+			(at 146.05 179.3874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 146.05 181.9274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 142.24 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 142.24 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1fcf8d6-4cb3-4235-b54a-3c765c2dfe9d")
+		)
+		(pin "1"
+			(uuid "2a3529da-9a8c-4541-9bc2-5db57aabf92a")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -13529,6 +13904,208 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 105.41 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efb07204-bf95-43c0-8f70-80fdf3614119")
+		(property "Reference" "#PWR083"
+			(at 105.41 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 105.41 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 105.41 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1aba2852-3992-4fa8-9de1-fa018919aece")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 116.84 24.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0653153-a1d8-4bd7-bd08-531814fccffe")
+		(property "Reference" "D7"
+			(at 120.65 24.4474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "+24V"
+			(at 120.65 26.9874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 116.84 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 116.84 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e61bd976-a9bc-4606-af22-413d7b5857f5")
+		)
+		(pin "1"
+			(uuid "efcb856b-d2ba-4b04-8eaa-f0a8be62f7e0")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f317ed36-88ae-4048-995d-53203e07c525")
+		(property "Reference" "#PWR080"
+			(at 123.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37aeb4a7-49e8-4a6a-abdf-e87d5e9e1817")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
