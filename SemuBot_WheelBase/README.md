@@ -62,6 +62,14 @@ https://www.snapeda.com/parts/1984620/Phoenix%20Contact/view-part/?ref=search&t=
 * 3x2xGPIO pin for drivers
 * 3xPWM for drivers
 
+Hc = Blue
+HB = White
+Ha = Yellow
+
+Mc = Brown thick
+Mb = Green thick
+Ma = Orange thick
+
 
 TOTAL NEEDED FROM STM32: 9(drivers)+ 3CS + SPI =13
 
@@ -74,7 +82,4 @@ TOTAL NEEDED FROM STM32: 9(drivers)+ 3CS + SPI =13
 * CS
 
 
-## TODO
 
-* ST-link-i jaoks 4 pini või hackida midagi kokku läbi usb ühenduse?
-* USB connection
