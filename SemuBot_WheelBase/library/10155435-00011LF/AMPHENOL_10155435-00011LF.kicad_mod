@@ -1,5 +1,5 @@
 
-(footprint AMPHENOL_10155435-00011LF (layer F.Cu) (tedit 6728EECE)
+(footprint AMPHENOL_10155435-00011LF (layer F.Cu) (tedit 67DAC864)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at -1.325 -6.385 0) (layer F.SilkS)
