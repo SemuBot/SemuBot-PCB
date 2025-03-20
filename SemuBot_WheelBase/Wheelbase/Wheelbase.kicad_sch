@@ -5364,6 +5364,16 @@
 		)
 		(uuid "2c434703-eb25-468d-9583-08ebc20ce3dd")
 	)
+	(text "Encoders\n"
+		(exclude_from_sim no)
+		(at 52.324 105.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c5506cc-9183-4764-80c7-40ad978b59ba")
+	)
 	(text "Oscillator\n"
 		(exclude_from_sim no)
 		(at 28.956 167.132 0)
