@@ -58,52 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "solder_mask_bridge|118645000|70950000|b72facfe-1219-45fa-8486-3285eec96486|ba9d4568-df27-4414-87a4-1f03886e15bb",
-          ""
-        ],
-        [
-          "solder_mask_bridge|118645000|71750000|760c163e-044c-4b6b-82fb-61a69241e771|b72facfe-1219-45fa-8486-3285eec96486",
-          ""
-        ],
-        [
-          "solder_mask_bridge|118645000|72050000|760c163e-044c-4b6b-82fb-61a69241e771|ab16738e-11ca-4264-ae6f-df14f6a0d168",
-          ""
-        ],
-        [
-          "solder_mask_bridge|118645000|72750000|9eed08d5-1979-474e-af32-ec0953e990b6|ab16738e-11ca-4264-ae6f-df14f6a0d168",
-          ""
-        ],
-        [
-          "solder_mask_bridge|118645000|73050000|9eed08d5-1979-474e-af32-ec0953e990b6|30ad74b4-b708-4881-a5a4-8a9f3f638319",
-          ""
-        ],
-        [
-          "solder_mask_bridge|118645000|73750000|8dc8e391-a9cb-47a1-adbc-d54b97dbf2ab|30ad74b4-b708-4881-a5a4-8a9f3f638319",
-          ""
-        ],
-        [
-          "solder_mask_bridge|118645000|74250000|27d74d62-c82c-4cf4-8957-c4567f3dd8d4|8dc8e391-a9cb-47a1-adbc-d54b97dbf2ab",
-          ""
-        ],
-        [
-          "solder_mask_bridge|118645000|74550000|27d74d62-c82c-4cf4-8957-c4567f3dd8d4|30f10c97-70df-4919-9e6c-f2eb949aca7f",
-          ""
-        ],
-        [
-          "solder_mask_bridge|118645000|75250000|94b257ff-af9f-47ff-a755-3cd0fe3551bd|30f10c97-70df-4919-9e6c-f2eb949aca7f",
-          ""
-        ],
-        [
-          "solder_mask_bridge|118645000|75550000|94b257ff-af9f-47ff-a755-3cd0fe3551bd|d11a349a-439d-44a1-b19f-4adf5b7bc292",
-          ""
-        ],
-        [
-          "solder_mask_bridge|118645000|76350000|d11a349a-439d-44a1-b19f-4adf5b7bc292|ca59c50c-fcb9-4e6f-af6a-c6bd566a89f1",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -153,6 +108,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -621,7 +577,7 @@
       "idf": "",
       "netlist": "",
       "plot": "gerber/",
-      "pos_files": "",
+      "pos_files": "releases/version_1.5/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",

@@ -5653,8 +5653,8 @@
 		(uuid "53134ccd-991a-4d1b-bdcc-dfe2aaa665da")
 	)
 	(no_connect
-		(at 135.89 105.41)
-		(uuid "6fe26558-461b-4bd3-a1a8-57684f11173d")
+		(at 135.89 133.35)
+		(uuid "70abdfdf-0aff-4067-9896-e960a2dc33b4")
 	)
 	(no_connect
 		(at 100.33 77.47)
@@ -5719,16 +5719,6 @@
 	(no_connect
 		(at 135.89 97.79)
 		(uuid "f4f7ccab-0fef-4313-8144-76ff97d8eb9f")
-	)
-	(wire
-		(pts
-			(xy 135.89 133.35) (xy 139.7 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0043fd62-452b-4099-8934-dd1f41cccf9e")
 	)
 	(wire
 		(pts
@@ -6602,6 +6592,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 105.41) (xy 139.7 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d69b528-7397-414f-81f5-b18050a4184a")
+	)
+	(wire
+		(pts
 			(xy 226.06 96.52) (xy 231.14 96.52)
 		)
 		(stroke
@@ -7300,16 +7300,6 @@
 		)
 		(uuid "12e386ae-ed61-4648-b94a-ba4a1c011710")
 	)
-	(label "MOTOR1_DIR"
-		(at 139.7 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13f745bb-4dcf-48e3-abcb-edede8a26998")
-	)
 	(label "CS_ENC_3"
 		(at 96.52 97.79 180)
 		(effects
@@ -7420,15 +7410,15 @@
 		)
 		(uuid "3ec830f8-8259-4f4d-bf8c-d7aac1d10601")
 	)
-	(label "ENABLE"
-		(at 139.7 133.35 0)
+	(label "MOTOR3_DIR"
+		(at 139.7 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "40211a87-d2ff-47bd-8cc9-077e97a58048")
+		(uuid "45ce4410-13a2-4b96-9cbc-97964830989b")
 	)
 	(label "SWCLK"
 		(at 26.67 85.09 180)
@@ -7469,6 +7459,16 @@
 			(justify right bottom)
 		)
 		(uuid "5a7dbc90-5a0a-43ac-95a4-3d6befa726df")
+	)
+	(label "MOTOR1_DIR"
+		(at 139.7 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b1b6937-0948-48d8-8e4d-d1d3851d9f6a")
 	)
 	(label "motor2_led"
 		(at 173.99 146.05 180)
@@ -7580,6 +7580,16 @@
 		)
 		(uuid "92f6818d-3e97-443a-9a18-f11fa71b0cc1")
 	)
+	(label "nBRAKE"
+		(at 139.7 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97ceee04-71f9-4e7e-8745-c3fdd68b769c")
+	)
 	(label "MOTOR3_DIR"
 		(at 191.77 127 180)
 		(effects
@@ -7639,16 +7649,6 @@
 			(justify right bottom)
 		)
 		(uuid "ab43d73d-84ec-4fa9-a574-68ad90203b32")
-	)
-	(label "nBRAKE"
-		(at 139.7 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba7be0be-3c6e-49bd-b472-9a6eb6ed4793")
 	)
 	(label "D+"
 		(at 176.53 29.21 0)
@@ -7740,16 +7740,6 @@
 		)
 		(uuid "e5527694-5966-409b-8d06-d096188d641f")
 	)
-	(label "MOTOR3_DIR"
-		(at 139.7 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e774f1e4-b8c9-4b2e-b30e-cd0b97197932")
-	)
 	(label "MOTOR1_DIR"
 		(at 190.5 58.42 180)
 		(effects
@@ -7759,6 +7749,16 @@
 			(justify right bottom)
 		)
 		(uuid "e7b0bf99-d192-4a4b-9e5b-5e943da6fe6c")
+	)
+	(label "ENABLE"
+		(at 139.7 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9ba3ced-4913-4454-9156-3fde2cdafa2d")
 	)
 	(label "MOTOR2_PWM"
 		(at 139.7 74.93 0)
@@ -7869,7 +7869,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "red"
 			(at 152.4 180.6574 90)
 			(effects
 				(font
@@ -11211,7 +11211,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "red"
 			(at 165.1 161.6075 90)
 			(effects
 				(font
@@ -12108,7 +12108,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "red"
 			(at 138.43 180.6574 90)
 			(effects
 				(font
@@ -14601,7 +14601,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "red"
 			(at 189.23 161.6075 90)
 			(effects
 				(font
@@ -15499,7 +15499,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "red"
 			(at 166.37 180.6574 90)
 			(effects
 				(font
@@ -15635,7 +15635,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "red"
 			(at 177.8 161.6075 90)
 			(effects
 				(font

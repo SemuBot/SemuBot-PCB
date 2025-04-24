@@ -1,4 +1,11 @@
-24748195806846186
+24751662616076291
+10155435-00011LF
+AMPHENOL_10155435-00011LF
+
+
+0
+16
+16
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +20,13 @@ audio belton reverb
 0
 7
 7
+B5B-XH-A_LF__SN_
+JST_B5B-XH-A_LF__SN_
+
+
+0
+5
+5
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -92882,6 +92896,13 @@ Logo WEEE
 0
 0
 0
+TB003-500-P02BE
+CUI_TB003-500-P02BE
+
+
+0
+2
+2
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -99532,10 +99553,3 @@ OSC_X322516MLB4SI
 0
 4
 4
-semubot_2
-semu
-
-
-0
-0
-0
