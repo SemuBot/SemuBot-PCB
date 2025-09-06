@@ -5489,6 +5489,12 @@
 		(uuid "5054baf1-010f-4bf1-814e-fd77dbc68440")
 	)
 	(junction
+		(at 154.94 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "537c5cec-e052-4761-9b7b-295ca5f03ed0")
+	)
+	(junction
 		(at 41.91 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6602,6 +6608,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 90.17) (xy 160.02 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eff089f-d2bf-4e09-a15d-22fc04f23ee0")
+	)
+	(wire
+		(pts
 			(xy 226.06 96.52) (xy 231.14 96.52)
 		)
 		(stroke
@@ -6772,7 +6788,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 90.17) (xy 135.89 90.17)
+			(xy 135.89 90.17) (xy 154.94 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6959,6 +6975,16 @@
 			(type default)
 		)
 		(uuid "d1efdc77-ebfa-4b3f-b452-7e99fc2526c1")
+	)
+	(wire
+		(pts
+			(xy 154.94 88.9) (xy 154.94 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d239426c-3af9-4161-a898-85b0180c239f")
 	)
 	(wire
 		(pts
@@ -7430,16 +7456,6 @@
 		)
 		(uuid "4f0b8961-ca0a-4180-9321-b5bf7ee8186b")
 	)
-	(label "D+"
-		(at 140.97 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "52b05970-7705-4ed4-9cdb-6f6ec8770ed7")
-	)
 	(label "CS_ENC_1"
 		(at 139.7 140.97 0)
 		(effects
@@ -7609,6 +7625,16 @@
 			(justify left bottom)
 		)
 		(uuid "99e748c6-330d-44af-b494-f9df1a7bd20e")
+	)
+	(label "D+"
+		(at 160.02 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a8c8f0f-ec12-433a-8c11-ea4ad0dd8b5a")
 	)
 	(label "nBRAKE"
 		(at 191.77 88.9 180)
@@ -7849,6 +7875,73 @@
 			(justify left bottom)
 		)
 		(uuid "fe04d718-739d-499f-952a-164ea56ce802")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "000615e4-5c2c-460b-b741-ac59ede4c745")
+		(property "Reference" "R36"
+			(at 151.384 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 152.908 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 156.718 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d287dfd7-2ca6-4249-b118-b655aea84727")
+		)
+		(pin "2"
+			(uuid "d8091071-fe87-4c92-8487-e1afd8ec5d39")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -8238,7 +8331,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "3.3K"
 			(at 163.322 150.622 90)
 			(effects
 				(font
@@ -10740,7 +10833,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "3.3K"
 			(at 187.452 150.622 90)
 			(effects
 				(font
@@ -11069,19 +11162,21 @@
 		(fields_autoplaced yes)
 		(uuid "5bd54484-fc26-444a-abd0-9e38a0f301aa")
 		(property "Reference" "D2"
-			(at 86.36 120.9675 0)
+			(at 96.52 119.6974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "DEBUG_LED"
-			(at 88.9 120.9675 0)
+		(property "Value" "red"
+			(at 96.52 122.2374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -14884,6 +14979,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 154.94 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0cef472-2118-4181-8bcf-83ff7d509f07")
+		(property "Reference" "#PWR092"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "837b5ea0-3cfe-4a13-a3e0-9f4c08113023")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 226.06 96.52 0)
 		(unit 1)
@@ -15364,7 +15525,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "3.3K"
 			(at 176.022 150.622 90)
 			(effects
 				(font

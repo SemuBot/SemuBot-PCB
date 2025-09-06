@@ -577,7 +577,7 @@
       "idf": "",
       "netlist": "",
       "plot": "gerber/",
-      "pos_files": "releases/version_1.5/",
+      "pos_files": "production/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
