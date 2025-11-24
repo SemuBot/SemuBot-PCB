@@ -479,218 +479,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "1984620:1984620"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J7"
-				(at 7.62 1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1984620"
-				(at 7.62 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "1984620:PHOENIX_1984620"
-				(at 19.558 7.366 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Phoenix Contact"
-				(at 29.718 19.558 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            PCB Terminal Screw 3.5mm 16AWG 200V 17.5A 3 Position COMBICON PT Series | Phoenix Contact 1984620\n                        \n"
-				(at 1.524 17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/1984620/Phoenix+Contact/view-part/?ref=eda"
-				(at 1.524 17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/1984620/Phoenix+Contact/view-part/?ref=snap"
-				(at 1.524 17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "1984620"
-				(at 29.718 19.558 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 29.718 19.558 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "PHOENIX"
-				(at 6.096 12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "1984620_0_0"
-				(rectangle
-					(start -3.81 5.08)
-					(end 2.54 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -8.89 2.54 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -8.89 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -8.89 -2.54 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "B5B-XH-A_LF__SN_:B5B-XH-A_LF__SN_"
 			(pin_names
 				(offset 1.016)
@@ -1075,6 +863,374 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DS1013-10SSIB1:DS1013-10SSIB1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "DS1013-10SSIB1"
+				(at -5.08 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DS1013-10SSIB1:CONNFLY_DS1013-10SSIB1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Connfly"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "9.3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/DS1013-10SSIB1/Connfly/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/DS1013-10SSIB1/Connfly/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "DS1013-10SSIB1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Socket; IDC; male; PIN: 10; straight; THT; gold plated; 2.54mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "CONNFLY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "DS1013-10SSIB1_0_0"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3183,6 +3339,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MR30PW-M:MR30PW-M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MR30PW-M"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "MR30PWM"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/5fffb0d591c3b83b8e9faab5387231c6/MR30PW-M.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector: DC supply; socket; MR30; male; PIN: 3; on PCBs; THT; 15A , 500VDC , -20C to 120C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "5.3"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amass"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MR30PW-M"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MR30PW-M_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MTSW-103-09-L-S-400:MTSW-103-09-L-S-400"
 			(pin_names
 				(offset 1.016)
@@ -3415,6 +3777,256 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MTSW-104-09-L-S-400:MTSW-104-09-L-S-400"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J13"
+				(at 8.89 2.5401 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MTSW-104-09-L-S-400"
+				(at 8.89 0.0001 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "MTSW-104-09-L-S-400:SAMTEC_MTSW-104-09-L-S-400"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Samtec"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Conn Unshrouded Header HDR 4 POS 2.54mm Solder ST Top Entry Thru-Hole Bulk"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MTSW-104-09-L-S-400/Samtec/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MTSW-104-09-L-S-400/Samtec/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MTSW-104-09-L-S-400"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Samtec"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MTSW-104-09-L-S-400_0_0"
+				(rectangle
+					(start -7.62 7.62)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -3515,297 +4127,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "NCP164CSN330T1G:NCP164CSN330T1G"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC1"
-				(at -0.762 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NCP164CSN330T1G"
-				(at 1.778 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "NCP164CSN330T1G:SOT95P275X110-5N"
-				(at -1.27 14.224 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -33.02 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "LDO Regulator Pos 3.3V 0.3A 5-Pin TSOP T/R"
-				(at -9.906 24.892 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER_NAME" "ON Semiconductor"
-				(at 57.15 22.098 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "ON Semiconductor"
-				(at -31.242 13.208 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP164CSN330T1G?qs=xZ%2FP%252Ba9zWqbi%2FAyy5UtoRw%3D%3D"
-				(at -0.508 16.002 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MOUSER_PART_NUMBER" "863-NCP164CSN330T1G"
-				(at -8.89 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 49.53 25.146 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "TSOP-5 ON Semiconductor"
-				(at 15.24 23.622 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/NCP164CSN330T1G/Onsemi/view-part/?ref=eda"
-				(at 0.254 27.686 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "HEIGHT" "1.1mm"
-				(at -14.478 25.908 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/NCP164CSN330T1G/Onsemi/view-part/?ref=snap"
-				(at 1.524 18.288 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "NCP164CSN330T1G"
-				(at -2.794 18.796 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            Linear Voltage Regulator IC Positive Fixed 1 Output  300mA 5-TSOP\n                        \n"
-				(at -0.762 20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 55.626 19.812 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER_PART_NUMBER" "NCP164CSN330T1G"
-				(at 36.83 26.924 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "NCP164CSN330T1G_0_0"
-				(pin bidirectional line
-					(at -13.97 -7.62 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 13.97 -7.62 180)
-					(length 5.08)
-					(name "PG/ADJ"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "NCP164CSN330T1G_0_1"
-				(rectangle
-					(start -8.89 3.81)
-					(end 8.89 -11.43)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "NCP164CSN330T1G_1_0"
-				(pin bidirectional line
-					(at -13.97 1.27 0)
-					(length 5.08)
-					(name "Vin"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -13.97 -3.81 0)
-					(length 5.08)
-					(name "En"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 13.97 1.27 180)
-					(length 5.08)
-					(name "Vout"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3970,32 +4291,30 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SSW-104-01-FM-D:SSW-104-01-FM-D"
+		(symbol "RT9013-33GB:RT9013-33GB"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -8.12 7.62 0)
+			(property "Reference" "U5"
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "SSW-104-01-FM-D"
-				(at -7.62 -7.62 0)
+			(property "Value" "RT9013-33GB"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SSW-104-01-FM-D:SAMTEC_SSW-104-01-FM-D"
+			(property "Footprint" "RT9013-33GB:SOT94P279X129-5N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4023,7 +4342,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Samtec"
+			(property "MF" "Richtek USA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4033,7 +4352,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "8 Position Receptacle Connector 0.100 (2.54mm) Through Hole Gold"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.295 mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4043,327 +4362,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/SSW-104-01-FM-D/Samtec/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SSW-104-01-FM-D/Samtec/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "SSW-104-01-FM-D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Samtec"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "SSW-104-01-FM-D_0_0"
-				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "01"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "01"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "03"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "03"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "05"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "05"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "07"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "07"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "02"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "02"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "04"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "04"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "06"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "06"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "08"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "08"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TB003-500-P02BE:TB003-500-P02BE"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J3"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TB003-500-P02BE"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "TB003-500-P02BE:CUI_TB003-500-P02BE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Same Sky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            2~24 Poles, Screw Type, Horizontal, 5.0 Pitch, 26~14 (AWG), Terminal Block Connector\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
+			(property "Package" "SOT-23-5 Richtek"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4383,17 +4382,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TB003-500-P02BE/Same+Sky/view-part/?ref=eda"
-				(at 0.508 12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
+			(property "Check_prices" "https://www.snapeda.com/parts/RT9013-33GB/Richtek/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4403,8 +4392,8 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TB003-500-P02BE/Same+Sky/view-part/?ref=snap"
-				(at 0.254 10.922 0)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4413,7 +4402,37 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "TB003-500-P02BE"
+			(property "PARTREV" "Aprill 2011"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/RT9013-33GB/Richtek/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "RT9013-33GB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Linear Voltage Regulator IC Positive Fixed 1 Output  500mA TSOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4433,7 +4452,7 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "CUI"
+			(property "MANUFACTURER" "Richtek Technology"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4443,10 +4462,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TB003-500-P02BE_0_0"
+			(symbol "RT9013-33GB_0_0"
 				(rectangle
-					(start -5.08 -2.54)
-					(end 5.08 5.08)
+					(start -10.16 -7.62)
+					(end 10.16 7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4455,12 +4474,10 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "TB003-500-P02BE_1_0"
-				(pin passive line
-					(at -10.16 2.54 0)
+				(pin power_in line
+					(at -15.24 5.08 0)
 					(length 5.08)
-					(name "24V"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4475,10 +4492,46 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -10.16 0 0)
+				(pin input line
+					(at -15.24 0 0)
 					(length 5.08)
-					(name "PGND"
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4867,6 +4920,359 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XT30PW-M:XT30PW-M"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "XT30PW-M"
+				(at -7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "XT30PW-M:AMASS_XT30PW-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "AMASS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "XT30PW-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Amass"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "XT30PW-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "XT30PW-M_0_0"
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.2225 -0.3175)
+					(end -0.635 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.2225 -2.8575)
+					(end -0.635 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.905 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 180)
+					(length 5.08)
+					(name "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5404,7 +5810,7 @@
 		)
 		(uuid "a8db3dcb-9822-457f-909d-318b59363926")
 	)
-	(text "USART2\n"
+	(text "USART3\n"
 		(exclude_from_sim no)
 		(at 35.814 44.958 0)
 		(effects
@@ -5416,7 +5822,7 @@
 	)
 	(text "Programmer\n"
 		(exclude_from_sim no)
-		(at 39.878 73.66 0)
+		(at 52.07 71.628 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5441,12 +5847,6 @@
 		(uuid "0026484b-654e-4a1a-bb47-dff66ff0d2fb")
 	)
 	(junction
-		(at 64.77 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ec57d25-f997-4e51-b410-488d848438b9")
-	)
-	(junction
 		(at 104.14 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5465,10 +5865,22 @@
 		(uuid "1e3f41fd-7c04-4ffc-a5b7-b4defe2c6456")
 	)
 	(junction
-		(at 113.03 181.61)
+		(at 74.93 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "271de8bc-8bae-46d6-8501-3e4791b400b2")
+		(uuid "21f3cdc2-0165-4327-8965-78224eefe0dd")
+	)
+	(junction
+		(at 105.41 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26a47c6b-10fe-4c86-98c7-0104499d97e8")
+	)
+	(junction
+		(at 246.38 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26e8fdf0-45ad-4587-b2d7-7de73fcddc78")
 	)
 	(junction
 		(at 227.33 33.02)
@@ -5513,10 +5925,10 @@
 		(uuid "767eb666-7c07-4bc8-92f7-636ddf07d926")
 	)
 	(junction
-		(at 107.95 181.61)
+		(at 113.03 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "80acd573-40a2-42dd-899b-2544b24aa52e")
+		(uuid "7a2a7c4b-899d-4cdf-98ec-911b5c3185ff")
 	)
 	(junction
 		(at 93.98 40.64)
@@ -5537,24 +5949,6 @@
 		(uuid "8d2f51a6-1f8b-4236-93a8-c3f8410b1d21")
 	)
 	(junction
-		(at 74.93 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e3ad627-8b55-496b-96d7-f660260bd231")
-	)
-	(junction
-		(at 55.88 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e5a03f9-c49b-4f21-bf50-c8e9b8669183")
-	)
-	(junction
-		(at 55.88 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abcb4395-705f-48d6-9190-86cd3a8bb059")
-	)
-	(junction
 		(at 76.2 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5565,6 +5959,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdd689a1-a532-4e62-adbd-2529a9a92151")
+	)
+	(junction
+		(at 246.38 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5d4e299-c363-4f00-b84b-45ccaad8c0ae")
 	)
 	(junction
 		(at 115.57 54.61)
@@ -5614,13 +6014,15 @@
 		(color 0 0 0 0)
 		(uuid "f6fbe558-bca1-43bb-8583-671f80ed1d54")
 	)
-	(no_connect
-		(at 100.33 102.87)
-		(uuid "0473e4ac-71ac-4df9-9cf5-6aca7c2ead46")
+	(junction
+		(at 246.38 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fedaea0e-1af7-4da3-bfd3-8f87f1f7b75a")
 	)
 	(no_connect
-		(at 135.89 82.55)
-		(uuid "0d8426e8-ce68-4da8-99af-f3cabc222068")
+		(at 43.18 92.71)
+		(uuid "055a02f5-c123-4316-9506-bdca31e7fa52")
 	)
 	(no_connect
 		(at 100.33 118.11)
@@ -5639,28 +6041,20 @@
 		(uuid "2957267c-4be3-4785-901f-9061d35ae9b7")
 	)
 	(no_connect
-		(at 135.89 123.19)
-		(uuid "2bfed1b7-92f5-40a9-b093-5fc5b6b75430")
-	)
-	(no_connect
-		(at 135.89 77.47)
-		(uuid "2fe72812-7e81-4fd0-b7c3-89e3812752e1")
-	)
-	(no_connect
 		(at 243.84 48.26)
 		(uuid "33497da3-cac4-4450-89e8-68a4451f7f7e")
 	)
 	(no_connect
-		(at 100.33 92.71)
-		(uuid "4e180d94-8c01-4c84-a381-fabd9deda8b9")
+		(at 63.5 92.71)
+		(uuid "3ce40122-06ed-45c0-9138-c9286df95fa8")
+	)
+	(no_connect
+		(at 43.18 85.09)
+		(uuid "4be7d4a1-18bd-47a4-ae9e-279c5ef1ba98")
 	)
 	(no_connect
 		(at 135.89 120.65)
 		(uuid "53134ccd-991a-4d1b-bdcc-dfe2aaa665da")
-	)
-	(no_connect
-		(at 135.89 133.35)
-		(uuid "70abdfdf-0aff-4067-9896-e960a2dc33b4")
 	)
 	(no_connect
 		(at 100.33 77.47)
@@ -5675,16 +6069,20 @@
 		(uuid "747a46ec-5e5b-45ba-8873-f9091f882462")
 	)
 	(no_connect
-		(at 100.33 100.33)
-		(uuid "86ec3585-5d52-473b-a250-257e287a3505")
+		(at 135.89 67.31)
+		(uuid "8f5c9061-2fc4-4c38-9794-06836c4dc827")
+	)
+	(no_connect
+		(at 100.33 102.87)
+		(uuid "9a36fc3f-5e57-4f90-93da-82a337982b15")
 	)
 	(no_connect
 		(at 100.33 90.17)
 		(uuid "a2854731-2eb3-4e0c-9b41-a194d7095581")
 	)
 	(no_connect
-		(at 135.89 125.73)
-		(uuid "abb313c0-05f4-4a6e-81fe-87aca2c46f8d")
+		(at 135.89 130.81)
+		(uuid "a833e94e-4322-4de8-946a-e1ca7c1afe2c")
 	)
 	(no_connect
 		(at 100.33 85.09)
@@ -5693,6 +6091,10 @@
 	(no_connect
 		(at 243.84 45.72)
 		(uuid "c0f43b55-6b80-4d7c-8c31-142cbdad5071")
+	)
+	(no_connect
+		(at 135.89 64.77)
+		(uuid "c8987b38-6b0e-4e59-a041-1913730cf9ab")
 	)
 	(no_connect
 		(at 135.89 59.69)
@@ -5707,20 +6109,8 @@
 		(uuid "e3da13d5-e591-4d6a-9169-b09bfa5b71a4")
 	)
 	(no_connect
-		(at 100.33 107.95)
-		(uuid "e641ba98-4b4c-4337-8561-e706a5d16928")
-	)
-	(no_connect
 		(at 135.89 102.87)
 		(uuid "e7c9870f-8810-4c0a-83e9-1c6e7e4903e7")
-	)
-	(no_connect
-		(at 100.33 110.49)
-		(uuid "ea4d60a2-0d72-4db7-be8e-c8b2692fa708")
-	)
-	(no_connect
-		(at 135.89 69.85)
-		(uuid "ea70bdae-6c77-458e-aa48-057221444766")
 	)
 	(no_connect
 		(at 135.89 97.79)
@@ -5728,13 +6118,23 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 92.71) (xy 55.88 92.71)
+			(xy 44.45 33.02) (xy 41.91 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01de8f6d-8959-4dc8-b383-db01c72b7c89")
+		(uuid "0022a69c-25e0-4e6d-b783-703914708f30")
+	)
+	(wire
+		(pts
+			(xy 190.5 138.43) (xy 195.58 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a21440-d930-42d5-949e-43f2eac66b5f")
 	)
 	(wire
 		(pts
@@ -5778,6 +6178,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 31.75) (xy 195.58 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e2e390-aff4-4254-9f8a-5c34d9bcdbdf")
+	)
+	(wire
+		(pts
 			(xy 185.42 163.83) (xy 185.42 162.56)
 		)
 		(stroke
@@ -5788,7 +6198,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 190.5) (xy 64.77 189.23)
+			(xy 64.77 189.23) (xy 64.77 191.77)
 		)
 		(stroke
 			(width 0)
@@ -5815,6 +6225,16 @@
 			(type default)
 		)
 		(uuid "0e8c8c73-4eb1-487b-aa5b-2a8eb2bdf3b3")
+	)
+	(wire
+		(pts
+			(xy 190.5 97.79) (xy 195.58 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef57450-5948-4987-81c8-5926e1154625")
 	)
 	(wire
 		(pts
@@ -5888,6 +6308,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 77.47) (xy 139.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a889439-7336-4e6a-a3c4-cc862e500a02")
+	)
+	(wire
+		(pts
 			(xy 113.03 181.61) (xy 118.11 181.61)
 		)
 		(stroke
@@ -5905,16 +6335,6 @@
 			(type default)
 		)
 		(uuid "1b307d09-9bd9-4f86-8d71-92d786b0b5b8")
-	)
-	(wire
-		(pts
-			(xy 135.89 67.31) (xy 139.7 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c2e7e30-a8a2-4d96-917b-7846583387e9")
 	)
 	(wire
 		(pts
@@ -5978,6 +6398,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 100.33) (xy 100.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e283eb-0e4a-4223-befa-1d9dfed4a9f6")
+	)
+	(wire
+		(pts
 			(xy 29.21 190.5) (xy 29.21 186.69)
 		)
 		(stroke
@@ -5985,6 +6415,16 @@
 			(type default)
 		)
 		(uuid "249f3ad4-89e0-48ea-98d2-2338902d44dd")
+	)
+	(wire
+		(pts
+			(xy 194.31 29.21) (xy 195.58 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2555ee4a-cb7b-45cf-a565-b79d902b4b10")
 	)
 	(wire
 		(pts
@@ -5998,6 +6438,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 133.35) (xy 195.58 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9edf74-b8c3-4566-8da4-1d290bf2fe6c")
+	)
+	(wire
+		(pts
 			(xy 139.7 128.27) (xy 135.89 128.27)
 		)
 		(stroke
@@ -6008,6 +6458,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 92.71) (xy 100.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf4807c-09e6-4c5f-a3a6-cf57cdf3304a")
+	)
+	(wire
+		(pts
 			(xy 86.36 64.77) (xy 100.33 64.77)
 		)
 		(stroke
@@ -6015,6 +6475,16 @@
 			(type default)
 		)
 		(uuid "2f77e777-74bf-48e0-b6e2-d82ccc06845b")
+	)
+	(wire
+		(pts
+			(xy 220.98 74.93) (xy 220.98 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30427503-ba30-4ccc-9590-5311c83e6cab")
 	)
 	(wire
 		(pts
@@ -6048,7 +6518,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 73.66) (xy 223.52 73.66)
+			(xy 220.98 74.93) (xy 223.52 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6068,16 +6538,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 92.71) (xy 55.88 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "391e6586-a213-4daa-a5d2-3c36cb4a4f2f")
-	)
-	(wire
-		(pts
 			(xy 104.14 24.13) (xy 104.14 26.67)
 		)
 		(stroke
@@ -6088,7 +6548,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 76.2) (xy 223.52 76.2)
+			(xy 219.71 77.47) (xy 223.52 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6138,7 +6598,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 71.12) (xy 223.52 71.12)
+			(xy 222.25 72.39) (xy 223.52 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6155,6 +6615,26 @@
 			(type default)
 		)
 		(uuid "42fd4f68-284b-4f2c-b6e4-d3959e305a05")
+	)
+	(wire
+		(pts
+			(xy 246.38 74.93) (xy 246.38 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439cbbaf-263d-4ac4-9d30-f56d07915d38")
+	)
+	(wire
+		(pts
+			(xy 33.02 83.82) (xy 33.02 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46025536-3b34-4925-8f6b-2674c33b1f64")
 	)
 	(wire
 		(pts
@@ -6188,13 +6668,13 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 90.17) (xy 26.67 90.17)
+			(xy 190.5 64.77) (xy 195.58 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "515a0ea2-4112-4263-a17f-72223f17e883")
+		(uuid "4f1e3d6b-0a2d-4e8e-910f-4a85d56abe92")
 	)
 	(wire
 		(pts
@@ -6215,6 +6695,26 @@
 			(type default)
 		)
 		(uuid "55a2624e-285e-4284-ac0e-af42fdadb992")
+	)
+	(wire
+		(pts
+			(xy 190.5 72.39) (xy 195.58 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b17927-b0bd-4ae5-a627-498f69cb88d8")
+	)
+	(wire
+		(pts
+			(xy 246.38 138.43) (xy 246.38 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5688a57e-9785-4e81-a2b8-13718cd4618e")
 	)
 	(wire
 		(pts
@@ -6268,16 +6768,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 30.48) (xy 26.67 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d86daeb-de77-4dd5-8b41-320d942f465f")
-	)
-	(wire
-		(pts
 			(xy 190.5 60.96) (xy 195.58 60.96)
 		)
 		(stroke
@@ -6318,6 +6808,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 30.48) (xy 41.91 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649432e7-9d17-4dee-994e-c5d6feac75b0")
+	)
+	(wire
+		(pts
 			(xy 140.97 92.71) (xy 135.89 92.71)
 		)
 		(stroke
@@ -6345,6 +6845,26 @@
 			(type default)
 		)
 		(uuid "67631572-f5cc-4e66-8e65-25384fa03de0")
+	)
+	(wire
+		(pts
+			(xy 190.5 102.87) (xy 195.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69153068-8ed4-452c-831f-be3a6df4b1b7")
+	)
+	(wire
+		(pts
+			(xy 190.5 69.85) (xy 195.58 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6918713e-e219-4dae-91d5-f02ab7546393")
 	)
 	(wire
 		(pts
@@ -6408,6 +6928,36 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 67.31) (xy 195.58 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78004e5c-9348-41fa-af06-ab069d7ae58e")
+	)
+	(wire
+		(pts
+			(xy 135.89 133.35) (xy 139.7 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79216a76-e373-4562-b9ad-b2d135fb428d")
+	)
+	(wire
+		(pts
+			(xy 246.38 110.49) (xy 246.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7925b289-ceaa-4bb8-97b3-ee3b2e58821c")
+	)
+	(wire
+		(pts
 			(xy 215.9 60.96) (xy 231.14 60.96)
 		)
 		(stroke
@@ -6415,16 +6965,6 @@
 			(type default)
 		)
 		(uuid "793c8165-4878-4d8a-9683-88dca3041dba")
-	)
-	(wire
-		(pts
-			(xy 52.07 90.17) (xy 55.88 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a790a06-f6d0-40c2-8b14-7fe4cc31e9d8")
 	)
 	(wire
 		(pts
@@ -6458,6 +6998,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 90.17) (xy 33.02 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8dd308-4097-4171-9e5b-c381f88cb908")
+	)
+	(wire
+		(pts
 			(xy 215.9 104.14) (xy 223.52 104.14)
 		)
 		(stroke
@@ -6468,13 +7018,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 85.09) (xy 55.88 85.09)
+			(xy 246.38 104.14) (xy 246.38 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80b13930-5bb5-4895-9bcd-875e78888d04")
+		(uuid "83f868a7-6823-43a6-8797-67234cee3448")
 	)
 	(wire
 		(pts
@@ -6528,6 +7078,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 105.41) (xy 195.58 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2f8fef-fbf7-434d-9371-648f7ed2f3c2")
+	)
+	(wire
+		(pts
 			(xy 140.97 87.63) (xy 135.89 87.63)
 		)
 		(stroke
@@ -6558,6 +7118,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 140.97) (xy 246.38 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd85054-12ad-47b6-b4a2-1caee200fe02")
+	)
+	(wire
+		(pts
 			(xy 191.77 86.36) (xy 195.58 86.36)
 		)
 		(stroke
@@ -6568,13 +7138,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 190.5) (xy 74.93 190.5)
+			(xy 222.25 71.12) (xy 215.9 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93541199-c20f-4fb1-8978-7f1d7bcb937b")
+		(uuid "93415e5b-48ac-42a3-8f62-2b06fef97f11")
+	)
+	(wire
+		(pts
+			(xy 222.25 72.39) (xy 222.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959feb47-a1ac-4615-9bce-dcf46ebbd85d")
 	)
 	(wire
 		(pts
@@ -6618,6 +7198,26 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 181.61) (xy 113.03 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f03fe38-52f9-4e18-926d-fe966e2cbf61")
+	)
+	(wire
+		(pts
+			(xy 63.5 90.17) (xy 80.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f862f8d-d06b-4ff5-bf85-6c893099b8f3")
+	)
+	(wire
+		(pts
 			(xy 226.06 96.52) (xy 231.14 96.52)
 		)
 		(stroke
@@ -6658,26 +7258,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 130.81) (xy 135.89 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1bf680c-529f-41eb-8293-f53bd8c46875")
-	)
-	(wire
-		(pts
-			(xy 19.05 27.94) (xy 26.67 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2f8c539-ed44-49c1-8679-d7572d994aaf")
-	)
-	(wire
-		(pts
 			(xy 86.36 66.04) (xy 86.36 64.77)
 		)
 		(stroke
@@ -6685,16 +7265,6 @@
 			(type default)
 		)
 		(uuid "a3cccd85-388c-4396-849f-4706462b6693")
-	)
-	(wire
-		(pts
-			(xy 55.88 87.63) (xy 55.88 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a437685f-fc04-4fbc-861d-fc5df28347ad")
 	)
 	(wire
 		(pts
@@ -6758,16 +7328,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 87.63) (xy 55.88 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad093646-917c-455c-a873-360290d4613e")
-	)
-	(wire
-		(pts
 			(xy 139.7 135.89) (xy 135.89 135.89)
 		)
 		(stroke
@@ -6798,6 +7358,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 125.73) (xy 139.7 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b645c14e-f139-4314-be23-0d6e2cb19b25")
+	)
+	(wire
+		(pts
 			(xy 215.9 143.51) (xy 223.52 143.51)
 		)
 		(stroke
@@ -6815,6 +7385,16 @@
 			(type default)
 		)
 		(uuid "b87b7a69-8682-42b9-b039-f05b508cd7a8")
+	)
+	(wire
+		(pts
+			(xy 190.5 135.89) (xy 195.58 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba51f645-af14-4a92-930a-39c74984c921")
 	)
 	(wire
 		(pts
@@ -6845,16 +7425,6 @@
 			(type default)
 		)
 		(uuid "bc733516-a3aa-4532-bdf7-67889e82eeae")
-	)
-	(wire
-		(pts
-			(xy 107.95 190.5) (xy 102.87 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c12006b2-b9c5-44eb-a2cc-1618571b82d4")
 	)
 	(wire
 		(pts
@@ -6928,26 +7498,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 181.61) (xy 107.95 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca31ed8b-1ec1-41d4-955e-52eac06d4af7")
-	)
-	(wire
-		(pts
-			(xy 107.95 181.61) (xy 113.03 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca616d52-7874-4001-baea-f9b3ca753db2")
-	)
-	(wire
-		(pts
 			(xy 93.98 59.69) (xy 100.33 59.69)
 		)
 		(stroke
@@ -7008,6 +7558,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 110.49) (xy 100.33 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52befde-bbd5-4be4-8b3c-cf41bdf4d27b")
+	)
+	(wire
+		(pts
 			(xy 74.93 181.61) (xy 74.93 186.69)
 		)
 		(stroke
@@ -7018,7 +7578,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 181.61) (xy 107.95 181.61)
+			(xy 96.52 107.95) (xy 100.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ac238c-05d1-454e-981b-83d078d84625")
+	)
+	(wire
+		(pts
+			(xy 102.87 181.61) (xy 105.41 181.61)
 		)
 		(stroke
 			(width 0)
@@ -7028,13 +7598,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 191.77) (xy 64.77 190.5)
+			(xy 135.89 69.85) (xy 139.7 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9a4f9d2-d614-4683-abff-cad7f3d4f069")
+		(uuid "d7749c2b-b7be-4110-9881-64de2c7a5cd4")
+	)
+	(wire
+		(pts
+			(xy 220.98 73.66) (xy 215.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8722a18-0a90-446e-b9ea-0df5754f0968")
 	)
 	(wire
 		(pts
@@ -7068,13 +7648,13 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 81.28) (xy 20.32 90.17)
+			(xy 219.71 77.47) (xy 219.71 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddea9f13-70f5-45c7-a310-8865fe98c9da")
+		(uuid "dd880ffa-d03f-441d-87dd-1ffd9400f195")
 	)
 	(wire
 		(pts
@@ -7088,13 +7668,23 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 64.77) (xy 139.7 64.77)
+			(xy 246.38 77.47) (xy 246.38 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2ef49cf-8481-45d2-a495-95e08b7b3f8f")
+		(uuid "e30a5d8b-9627-4656-ba1a-f3238cc8f918")
+	)
+	(wire
+		(pts
+			(xy 135.89 123.19) (xy 139.7 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93d0553-ab05-4913-9dbd-4beb147213c7")
 	)
 	(wire
 		(pts
@@ -7238,6 +7828,46 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 100.33) (xy 195.58 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99b6e0e-14cf-453c-b024-31bf267ea464")
+	)
+	(wire
+		(pts
+			(xy 135.89 82.55) (xy 139.7 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9fad412-8944-4065-9f6d-3f5d0bc9c533")
+	)
+	(wire
+		(pts
+			(xy 190.5 140.97) (xy 195.58 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fafa6fdc-76db-4506-b3ef-656fd91dd39b")
+	)
+	(wire
+		(pts
+			(xy 219.71 76.2) (xy 215.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb182e24-4edc-4635-aa6c-9c6fbde104da")
+	)
+	(wire
+		(pts
 			(xy 124.46 24.13) (xy 124.46 26.67)
 		)
 		(stroke
@@ -7286,6 +7916,46 @@
 		)
 		(uuid "00e40fae-8981-4245-82e1-b90a753372b5")
 	)
+	(label "SPI_CLK"
+		(at 190.5 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0102bce5-2e89-40a2-9ea7-75dee6c3f36a")
+	)
+	(label "NRST"
+		(at 43.18 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01acebb4-daa9-41e3-8eca-cff51ace075c")
+	)
+	(label "SPI_DATA"
+		(at 121.92 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "020ad863-78e6-4a9e-864f-f62895e5f317")
+	)
+	(label "nBRAKE"
+		(at 139.7 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0293ea7d-53f6-4977-8188-2b13da0e5802")
+	)
 	(label "OSC_IN"
 		(at 21.59 179.07 180)
 		(effects
@@ -7296,15 +7966,15 @@
 		)
 		(uuid "05fe77cb-8962-4031-ab0a-5182cd819866")
 	)
-	(label "USART2_TX"
-		(at 139.7 64.77 0)
+	(label "SPI_CLK"
+		(at 190.5 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "094949a7-1247-46d8-8966-500c2503299c")
+		(uuid "0e4ccb2d-5a93-442c-af87-3ecc9102d799")
 	)
 	(label "MOTOR2_PWM"
 		(at 191.77 86.36 180)
@@ -7315,26 +7985,6 @@
 			(justify right bottom)
 		)
 		(uuid "11048d32-99d5-4d6e-a0d1-15775e9079b6")
-	)
-	(label "USART2_RX"
-		(at 139.7 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "12e386ae-ed61-4648-b94a-ba4a1c011710")
-	)
-	(label "CS_ENC_3"
-		(at 96.52 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "147492bd-aa19-4118-a178-5aac4d764df6")
 	)
 	(label "motor1_led"
 		(at 139.7 115.57 0)
@@ -7356,6 +8006,16 @@
 		)
 		(uuid "1a719821-8685-4b32-8035-8e86c628c338")
 	)
+	(label "CAN_RX"
+		(at 139.7 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cf31bae-ac0b-4938-91df-2610320f63eb")
+	)
 	(label "OSC_OUT"
 		(at 52.07 179.07 0)
 		(effects
@@ -7366,15 +8026,15 @@
 		)
 		(uuid "1ffe69ad-71c0-45a5-8488-b85fe4dd2a3e")
 	)
-	(label "SWDIO"
-		(at 55.88 85.09 0)
+	(label "ENABLE"
+		(at 139.7 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "208b983e-7487-44ed-a771-740a58eeb896")
+		(uuid "20f2843c-dbf2-42d6-be6d-f109c3824b48")
 	)
 	(label "SPI_DATA"
 		(at 43.18 128.27 180)
@@ -7396,6 +8056,16 @@
 		)
 		(uuid "24fae146-38ac-41d0-b73a-d859ff3ce62b")
 	)
+	(label "motor1_Cs"
+		(at 139.7 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b7ede2b-0f24-4eec-a0e3-f1d8e1a99c2b")
+	)
 	(label "MOTOR1_PWM"
 		(at 190.5 53.34 180)
 		(effects
@@ -7416,6 +8086,16 @@
 		)
 		(uuid "2c578df5-1aba-436f-9c13-6ad8418f682d")
 	)
+	(label "USART3_RX"
+		(at 96.52 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30b71a8d-98c9-4ecc-b0a7-4a4efe7814e2")
+	)
 	(label "NRST"
 		(at 95.25 59.69 0)
 		(effects
@@ -7425,6 +8105,16 @@
 			(justify left bottom)
 		)
 		(uuid "376be010-6a61-4639-b15a-2fa7aaeeee5e")
+	)
+	(label "motor3_Cs"
+		(at 190.5 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ddc5ca0-88d6-4fbd-8e84-bfd797a72067")
 	)
 	(label "SPI_DATA"
 		(at 139.7 138.43 0)
@@ -7436,7 +8126,7 @@
 		)
 		(uuid "3ec830f8-8259-4f4d-bf8c-d7aac1d10601")
 	)
-	(label "MOTOR3_DIR"
+	(label "motor3_Cs"
 		(at 139.7 105.41 0)
 		(effects
 			(font
@@ -7446,25 +8136,25 @@
 		)
 		(uuid "45ce4410-13a2-4b96-9cbc-97964830989b")
 	)
-	(label "SWCLK"
-		(at 26.67 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4f0b8961-ca0a-4180-9321-b5bf7ee8186b")
-	)
-	(label "CS_ENC_1"
-		(at 139.7 140.97 0)
+	(label "SWDIO"
+		(at 63.5 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "55f294f2-c5c2-4cbb-9904-ef04cd4fbe83")
+		(uuid "4eb22cd2-9fe3-4e1b-b5bc-cee830b23b61")
+	)
+	(label "motor1_Cs"
+		(at 190.5 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5312af13-d445-437e-9688-29f70bfa5ee1")
 	)
 	(label "SPI_CLK"
 		(at 43.18 130.81 180)
@@ -7486,6 +8176,26 @@
 		)
 		(uuid "5b1b6937-0948-48d8-8e4d-d1d3851d9f6a")
 	)
+	(label "SPI_MOSI"
+		(at 139.7 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b378702-94fc-4af9-a829-d7639d258f76")
+	)
+	(label "motor2_Cs"
+		(at 139.7 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fbe857f-c7c9-4f78-a9a9-9959c3a56ac9")
+	)
 	(label "motor2_led"
 		(at 173.99 146.05 180)
 		(effects
@@ -7496,7 +8206,7 @@
 		)
 		(uuid "626dd597-aa2a-42dc-889f-c55ce9d1b0d9")
 	)
-	(label "USART2_RX"
+	(label "USART3_RX"
 		(at 24.13 55.88 180)
 		(effects
 			(font
@@ -7505,6 +8215,16 @@
 			(justify right bottom)
 		)
 		(uuid "6684cb5e-2697-4236-ab6e-70c7ab166dcd")
+	)
+	(label "SPI_CLK"
+		(at 121.92 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "773b06e1-9cb0-41e7-8176-d9f1b72690fb")
 	)
 	(label "ENABLE"
 		(at 191.77 93.98 180)
@@ -7535,6 +8255,16 @@
 			(justify right bottom)
 		)
 		(uuid "7e3f89a7-46aa-4c28-bf69-e2d2d3ca9e27")
+	)
+	(label "SPI_MOSI"
+		(at 190.5 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "811cb380-2218-4bc2-b791-bde907d98ec4")
 	)
 	(label "D-"
 		(at 238.76 40.64 0)
@@ -7596,16 +8326,6 @@
 		)
 		(uuid "92f6818d-3e97-443a-9a18-f11fa71b0cc1")
 	)
-	(label "nBRAKE"
-		(at 139.7 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97ceee04-71f9-4e7e-8745-c3fdd68b769c")
-	)
 	(label "MOTOR3_DIR"
 		(at 191.77 127 180)
 		(effects
@@ -7646,6 +8366,16 @@
 		)
 		(uuid "9ad91ecd-b30a-4a10-ab82-bbe96c025e24")
 	)
+	(label "MOTOR3_DIR"
+		(at 96.52 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ade4eff-0044-4e03-88a0-c2fd496157f0")
+	)
 	(label "SPI_DATA"
 		(at 27.94 111.76 180)
 		(effects
@@ -7655,6 +8385,16 @@
 			(justify right bottom)
 		)
 		(uuid "9c7af7a1-1888-4334-9c93-bbfa5eefa747")
+	)
+	(label "CAN_RX"
+		(at 194.31 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3e7500a-afc4-49e4-9428-b0afeb69765d")
 	)
 	(label "MOTOR2_DIR"
 		(at 139.7 72.39 0)
@@ -7676,6 +8416,36 @@
 		)
 		(uuid "ab43d73d-84ec-4fa9-a574-68ad90203b32")
 	)
+	(label "CS_ENC_1"
+		(at 96.52 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1e231f0-6dd7-419e-a2e3-3f41cb4c744b")
+	)
+	(label "SPI_MOSI"
+		(at 190.5 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4c33d00-a2cf-4655-8d8a-4d9a215927c6")
+	)
+	(label "SPI_CLK"
+		(at 190.5 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b548575c-30ca-4468-9191-86f3f9c9ec42")
+	)
 	(label "D+"
 		(at 176.53 29.21 0)
 		(effects
@@ -7685,6 +8455,36 @@
 			(justify left bottom)
 		)
 		(uuid "bd42af89-e10a-4b9a-b9b5-69a7fa46c7fa")
+	)
+	(label "SPI_MOSI"
+		(at 121.92 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd642b36-7fbc-4524-ba4a-b6006c6c03c5")
+	)
+	(label "CS_ENC_3"
+		(at 96.52 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be302810-0f0e-438d-a8fd-af647a54af9a")
+	)
+	(label "CAN_TX"
+		(at 194.31 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be530401-d3a5-43dc-a724-6f2299dc442a")
 	)
 	(label "SWDIO"
 		(at 140.97 92.71 0)
@@ -7705,6 +8505,16 @@
 			(justify right bottom)
 		)
 		(uuid "c1b470cf-a8f3-4a1b-9b89-74bd573405ec")
+	)
+	(label "SPI_DATA"
+		(at 190.5 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c393c722-0f59-4d8c-b159-7b94248a47b6")
 	)
 	(label "SPI_CLK"
 		(at 59.69 147.32 180)
@@ -7746,7 +8556,37 @@
 		)
 		(uuid "cec0c6d7-1865-49be-adc0-aa5cbc48270a")
 	)
-	(label "USART2_TX"
+	(label "CAN_TX"
+		(at 139.7 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cffc9cac-6e75-4a02-83e8-6752b8a2d654")
+	)
+	(label "motor2_Cs"
+		(at 190.5 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3729430-d055-477e-a2de-1b92c26ba6d4")
+	)
+	(label "SPI_DATA"
+		(at 190.5 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d445d134-e16a-4e03-98de-fafc3ce8604d")
+	)
+	(label "USART3_TX"
 		(at 24.13 53.34 180)
 		(effects
 			(font
@@ -7755,6 +8595,36 @@
 			(justify right bottom)
 		)
 		(uuid "d8591ab9-8308-4f3c-a593-570b164180f2")
+	)
+	(label "SPI_DATA"
+		(at 190.5 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d933b1b3-d88d-4847-9ee8-f122610ec742")
+	)
+	(label "SPI_MOSI"
+		(at 190.5 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d982fbdc-f234-4a10-b055-dec05870be57")
+	)
+	(label "SWCLK"
+		(at 63.5 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da2d2652-7a83-47c7-b87f-ce9a58db3fce")
 	)
 	(label "MOTOR1_PWM"
 		(at 97.79 82.55 180)
@@ -7776,15 +8646,15 @@
 		)
 		(uuid "e7b0bf99-d192-4a4b-9e5b-5e943da6fe6c")
 	)
-	(label "ENABLE"
-		(at 139.7 130.81 0)
+	(label "USART3_TX"
+		(at 96.52 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "e9ba3ced-4913-4454-9156-3fde2cdafa2d")
+		(uuid "e8d12d0b-3ea2-4b7c-bbc4-4bb78697cffc")
 	)
 	(label "MOTOR2_PWM"
 		(at 139.7 74.93 0)
@@ -7835,16 +8705,6 @@
 			(justify left bottom)
 		)
 		(uuid "f5b5b63a-33e8-4ecb-b2ed-70f248718223")
-	)
-	(label "NRST"
-		(at 26.67 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f92174fc-ecab-45d7-bf32-7cf9b6137d04")
 	)
 	(label "MOTOR3_PWM"
 		(at 139.7 118.11 0)
@@ -7928,6 +8788,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 154.94 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 154.94 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 154.94 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 154.94 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 154.94 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 154.94 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d287dfd7-2ca6-4249-b118-b655aea84727")
 		)
@@ -7938,6 +8852,130 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 118.11 185.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "013ce17b-1258-4632-a5da-729a3fc64c7e")
+		(property "Reference" "C4"
+			(at 121.92 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 121.92 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 117.1448 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 118.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 118.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 118.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 118.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 118.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 118.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "040e7961-3c85-4362-87be-3ebdd669d5a7")
+		)
+		(pin "1"
+			(uuid "415a9e37-e99b-439d-9bdd-86f4c67af29e")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7991,6 +9029,60 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 148.59 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 148.59 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 148.59 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 148.59 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 148.59 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 148.59 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 148.59 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8080,33 +9172,33 @@
 		)
 	)
 	(symbol
-		(lib_id "TB003-500-P02BE:TB003-500-P02BE")
-		(at 36.83 30.48 0)
+		(lib_id "DS1013-10SSIB1:DS1013-10SSIB1")
+		(at 53.34 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0850f422-8072-452c-9069-0630d9f8d9c6")
-		(property "Reference" "J3"
-			(at 36.83 38.1 0)
+		(uuid "0ac9411a-b66e-4dde-aecc-0b4d72985c5c")
+		(property "Reference" "J9"
+			(at 53.34 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TB003-500-P02BE"
-			(at 36.83 35.56 0)
+		(property "Value" "DS1013-10SSIB1"
+			(at 53.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TB003-500-P02BE:CUI_TB003-500-P02BE"
-			(at 36.83 30.48 0)
+		(property "Footprint" "DS1013:CONNFLY_DS1013-10SSIB1"
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8116,7 +9208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 30.48 0)
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,7 +9217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 30.48 0)
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,8 +9225,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Same Sky"
-			(at 36.83 30.48 0)
+		(property "MF" "Connfly"
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,8 +9235,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            2~24 Poles, Screw Type, Horizontal, 5.0 Pitch, 26~14 (AWG), Terminal Block Connector\n                        \n"
-			(at 36.83 30.48 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.3mm"
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8154,7 +9246,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 36.83 30.48 0)
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8164,7 +9256,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 36.83 30.48 0)
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8173,8 +9265,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TB003-500-P02BE/Same+Sky/view-part/?ref=eda"
-			(at 37.338 18.288 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/DS1013-10SSIB1/Connfly/view-part/?ref=eda"
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8184,7 +9276,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 36.83 30.48 0)
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8193,8 +9285,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TB003-500-P02BE/Same+Sky/view-part/?ref=snap"
-			(at 37.084 19.558 0)
+		(property "PARTREV" "G"
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,8 +9295,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "TB003-500-P02BE"
-			(at 36.83 30.48 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DS1013-10SSIB1/Connfly/view-part/?ref=snap"
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8213,8 +9305,8 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
-			(at 36.83 30.48 0)
+		(property "MP" "DS1013-10SSIB1"
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,8 +9315,8 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "CUI"
-			(at 36.83 30.48 0)
+		(property "Description_1" "Socket; IDC; male; PIN: 10; straight; THT; gold plated; 2.54mm"
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,16 +9325,180 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "71e411f7-ccec-480f-8432-b6238166160d")
+		(property "Availability" "Not in stock"
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CONNFLY"
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0c32e865-450f-46cf-99c1-2502d24229d3")
+		)
+		(pin "10"
+			(uuid "6cfa435b-8cba-4436-944c-a8c92aabd2b6")
+		)
+		(pin "8"
+			(uuid "e7359b7d-57aa-4e8d-92f3-df88aba38458")
+		)
+		(pin "7"
+			(uuid "b77c4972-e967-48fb-b71b-4972a25b3219")
+		)
+		(pin "9"
+			(uuid "02fe3f3a-0cce-454b-bee4-fac4ea14ecde")
+		)
+		(pin "6"
+			(uuid "0a04056a-57a8-4e97-b641-4f7a29095b10")
 		)
 		(pin "1"
-			(uuid "2209d756-d59b-4b0e-a948-4034ab1ad127")
+			(uuid "f291519a-fdb0-46a4-bad0-8a6e8f413e01")
+		)
+		(pin "3"
+			(uuid "355e35dc-989b-4ae2-8610-6297a3a78bfb")
+		)
+		(pin "5"
+			(uuid "d301f01e-612b-4c83-90b7-c4e7840e7eb3")
+		)
+		(pin "2"
+			(uuid "fa87964b-b6eb-4a66-adb1-a0855bd1fb6f")
 		)
 		(instances
 			(project ""
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
-					(reference "J3")
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c957316-5df4-4186-868f-df63e42d73d5")
+		(property "Reference" "#PWR09"
+			(at 246.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4adcbdb-9cff-4060-afd1-e06336e0408a")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8366,6 +9622,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 161.29 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 161.29 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 161.29 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 161.29 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 161.29 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 161.29 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51ebce13-1c6d-460a-a531-791c039300bf")
 		)
@@ -8376,6 +9686,72 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10ac7d49-56b2-4d7d-84c4-a961bf6d4086")
+		(property "Reference" "#PWR015"
+			(at 246.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c1f18d5-1b7d-48a0-9395-10ad7a90b6dd")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8557,6 +9933,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 238.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 238.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 238.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 238.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 238.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 238.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0367f3b1-c79d-4ef7-a866-b92450c68184")
 		)
@@ -8576,224 +10006,6 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NCP164CSN330T1G:NCP164CSN330T1G")
-		(at 88.9 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15202df6-83b8-4a3d-a733-74d08653c120")
-		(property "Reference" "IC1"
-			(at 88.138 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP164CSN330T1G"
-			(at 90.678 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NCP164CSN330T1G:SOT95P275X110-5N"
-			(at 87.63 168.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_NAME" "ON Semiconductor"
-			(at 146.05 160.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "ON Semiconductor"
-			(at 57.658 169.672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/onsemi/NCP164CSN330T1G?qs=xZ%2FP%252Ba9zWqbi%2FAyy5UtoRw%3D%3D"
-			(at 88.392 166.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "LDO Regulator Pos 3.3V 0.3A 5-Pin TSOP T/R"
-			(at 78.994 157.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER_PART_NUMBER" "863-NCP164CSN330T1G"
-			(at 80.01 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 138.43 157.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "TSOP-5 ON Semiconductor"
-			(at 104.14 159.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/NCP164CSN330T1G/Onsemi/view-part/?ref=eda"
-			(at 89.154 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "HEIGHT" "1.1mm"
-			(at 74.422 156.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NCP164CSN330T1G/Onsemi/view-part/?ref=snap"
-			(at 90.424 164.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "NCP164CSN330T1G"
-			(at 86.106 164.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Linear Voltage Regulator IC Positive Fixed 1 Output  300mA 5-TSOP\n                        \n"
-			(at 88.138 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 144.526 163.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "NCP164CSN330T1G"
-			(at 125.73 155.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9e6de771-5826-4208-ad78-e15c490b768f")
-		)
-		(pin "5"
-			(uuid "c55c1858-f6f9-40e0-bc52-397e1b8cdba0")
-		)
-		(pin "3"
-			(uuid "1e632825-248f-4e65-81d2-90729a85119b")
-		)
-		(pin "2"
-			(uuid "4ccc0214-2a39-4614-8f0d-0a284d056ec5")
-		)
-		(pin "1"
-			(uuid "bcfc191b-0c37-4fb4-91f1-3bb5377a6c51")
-		)
-		(instances
-			(project ""
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
-					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -8866,32 +10078,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 107.95 186.69 180)
+		(lib_id "power:GND")
+		(at 63.5 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2483ac2c-6e32-4273-ae1b-ca684e14d115")
-		(property "Reference" "R3"
-			(at 104.394 186.436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3K"
-			(at 105.918 185.928 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 109.728 186.69 90)
+		(fields_autoplaced yes)
+		(uuid "18ebf823-77a6-490f-b156-50dcec398bd1")
+		(property "Reference" "#PWR090"
+			(at 69.85 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8899,8 +10096,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 107.95 186.69 0)
+		(property "Value" "GND"
+			(at 67.31 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,8 +10114,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 107.95 186.69 0)
+		(property "Datasheet" ""
+			(at 63.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8918,15 +10133,261 @@
 			)
 		)
 		(pin "1"
-			(uuid "5cca04a0-1fb6-4d63-bff3-bdad932771dc")
-		)
-		(pin "2"
-			(uuid "d8796bff-e6f6-434b-967a-02a7f97323be")
+			(uuid "30bb2b9d-f4e6-4344-afb3-6a2e834078b9")
 		)
 		(instances
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
-					(reference "R3")
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19f8fca3-38bb-4d12-b549-b6bc9e1bec44")
+		(property "Reference" "#PWR035"
+			(at 246.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb529e94-f1e7-4bf2-9e81-c5fb5b450d4f")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MR30PW-M:MR30PW-M")
+		(at 223.52 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20ce2625-b79b-413a-ae44-8ce677007bdd")
+		(property "Reference" "J3"
+			(at 234.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MR30PW-M"
+			(at 234.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MR30PWM"
+			(at 242.57 167.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/5fffb0d591c3b83b8e9faab5387231c6/MR30PW-M.pdf"
+			(at 242.57 267.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; MR30; male; PIN: 3; on PCBs; THT; 15A , 500VDC , -20C to 120C"
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.3"
+			(at 242.57 467.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 242.57 567.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 242.57 667.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 242.57 767.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MR30PW-M"
+			(at 242.57 867.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "50585328-50a1-4929-9d6d-48e49578777d")
+		)
+		(pin "2"
+			(uuid "b1cabfaa-bf8b-4d23-84ba-9a2edd72a005")
+		)
+		(pin "4"
+			(uuid "ff9a783f-3dc1-4291-bf92-467d0e091b1d")
+		)
+		(pin "5"
+			(uuid "043179a9-6c81-471d-b19f-247a2bd2ac1c")
+		)
+		(pin "1"
+			(uuid "d042d567-4fef-49a3-adbe-69f83938249c")
+		)
+		(instances
+			(project ""
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8977,6 +10438,60 @@
 		)
 		(property "Description" "Resistor"
 			(at 134.62 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 134.62 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 134.62 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 134.62 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 134.62 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 134.62 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 134.62 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,45 +10581,34 @@
 		)
 	)
 	(symbol
-		(lib_id "1984620:1984620")
-		(at 232.41 140.97 0)
+		(lib_id "power:+3.3V")
+		(at 80.01 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "29a4d9c9-dc0c-4542-b9aa-ddea8142ac6a")
-		(property "Reference" "J7"
-			(at 240.03 139.6999 0)
+		(uuid "30ef7f01-d3cf-4538-815a-5e49169cd399")
+		(property "Reference" "#PWR096"
+			(at 80.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "1984620"
-			(at 240.03 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1984620:PHOENIX_1984620"
-			(at 251.968 133.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 232.41 140.97 0)
+		(property "Value" "+3.3V"
+			(at 80.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9112,8 +10616,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 232.41 140.97 0)
+		(property "Datasheet" ""
+			(at 80.01 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9121,109 +10625,22 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Phoenix Contact"
-			(at 262.128 121.412 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 80.01 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            PCB Terminal Screw 3.5mm 16AWG 200V 17.5A 3 Position COMBICON PT Series | Phoenix Contact 1984620\n                        \n"
-			(at 233.934 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 232.41 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 232.41 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/1984620/Phoenix+Contact/view-part/?ref=eda"
-			(at 233.934 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1984620/Phoenix+Contact/view-part/?ref=snap"
-			(at 233.934 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "1984620"
-			(at 262.128 121.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 262.128 121.412 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "PHOENIX"
-			(at 238.506 128.778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "8467fe92-c834-4c93-bb47-3ed9d80ff830")
-		)
-		(pin "2"
-			(uuid "297b28b9-9901-448b-af88-ccca6b34289c")
-		)
-		(pin "3"
-			(uuid "1ba8ce6a-7af0-4953-8be9-d676951b77e9")
+			(uuid "457afd6a-c560-484b-b668-281a9694ea56")
 		)
 		(instances
-			(project ""
+			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
-					(reference "J7")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -9274,6 +10691,60 @@
 		)
 		(property "Description" "Resistor"
 			(at 231.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 231.14 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 231.14 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 231.14 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 231.14 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 231.14 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 231.14 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9604,6 +11075,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b23922a-d529-41e5-b948-9ffc96ea257c")
 		)
@@ -9623,6 +11148,72 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 195.58 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "359aff1a-ebe7-4793-8b3b-fe77148c23f3")
+		(property "Reference" "#PWR0100"
+			(at 195.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 195.58 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 195.58 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57286d7e-590a-46ff-b3cf-31665f81574a")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -9655,7 +11246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 93.98 21.59 0)
 			(effects
 				(font
@@ -9682,6 +11273,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 93.98 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 93.98 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 93.98 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 93.98 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 93.98 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 93.98 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "303e15e4-16dd-48b4-8fdf-cfdac2a8c3ed")
 		)
@@ -9695,35 +11340,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 64.77 185.42 0)
+		(lib_id "MR30PW-M:MR30PW-M")
+		(at 223.52 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "38b0df2f-4fae-4a80-beba-41a830e9d8f7")
-		(property "Reference" "C1"
-			(at 68.58 184.1499 0)
+		(uuid "396c2572-2959-49cf-a561-ec425390409f")
+		(property "Reference" "J7"
+			(at 234.95 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
-			(at 68.58 186.6899 0)
+		(property "Value" "MR30PW-M"
+			(at 234.95 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 65.7352 189.23 0)
+		(property "Footprint" "MR30PWM"
+			(at 242.57 233.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/5fffb0d591c3b83b8e9faab5387231c6/MR30PW-M.pdf"
+			(at 242.57 333.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; MR30; male; PIN: 3; on PCBs; THT; 15A , 500VDC , -20C to 120C"
+			(at 223.52 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9731,8 +11394,58 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 64.77 185.42 0)
+		(property "Height" "5.3"
+			(at 242.57 533.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 242.57 633.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 242.57 733.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 242.57 833.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MR30PW-M"
+			(at 242.57 933.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 223.52 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9740,8 +11453,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 64.77 185.42 0)
+		(property "HEIGHT" ""
+			(at 223.52 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,16 +11462,61 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "13046572-cc05-452e-89e0-c239da116aa8")
+		(property "MANUFACTURER_NAME" ""
+			(at 223.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 223.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 223.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 223.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "88a3112a-465c-4213-94cb-cd4f42382598")
 		)
 		(pin "2"
-			(uuid "c41eee22-19bb-484c-a54f-450bd72b6b4a")
+			(uuid "55cdc84e-82ce-4b51-b08b-1643888d57c9")
+		)
+		(pin "4"
+			(uuid "e4025066-025f-42ed-bf72-01ab78423e6e")
+		)
+		(pin "5"
+			(uuid "c040393a-1dc8-4b0b-bc50-acfb34e7aaa2")
+		)
+		(pin "1"
+			(uuid "0be2a45a-affd-4df1-b8b1-c630559959c3")
 		)
 		(instances
-			(project ""
+			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
-					(reference "C1")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -9832,7 +11590,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 19.05 27.94 0)
+		(at 44.45 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9840,7 +11598,7 @@
 		(dnp no)
 		(uuid "3d3b15b2-4fbc-4082-8afa-ce21421f9b60")
 		(property "Reference" "#PWR030"
-			(at 19.05 31.75 0)
+			(at 44.45 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9849,7 +11607,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 19.05 22.86 0)
+			(at 44.45 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9857,7 +11615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 27.94 0)
+			(at 44.45 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9866,7 +11624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 27.94 0)
+			(at 44.45 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9875,7 +11633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 19.05 27.94 0)
+			(at 44.45 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10203,6 +11961,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 35.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 35.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 35.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 35.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 35.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 35.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3df828a-10d7-4d2e-b27b-b6ad4932ff39")
 		)
@@ -10524,6 +12336,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 36.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 36.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 36.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 36.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 36.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 36.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "03"
 			(uuid "7037ba97-ce50-40a2-a92d-5483a37cc490")
 		)
@@ -10595,6 +12461,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 90.17 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 90.17 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 90.17 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 90.17 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 90.17 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 90.17 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "916dc70c-9390-424c-9cd6-f3dc0710ac56")
 		)
@@ -10605,76 +12525,6 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 118.11 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46ae7b37-8368-4727-8821-90b13d738e5f")
-		(property "Reference" "C2"
-			(at 121.92 184.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 121.92 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 119.0752 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 118.11 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ddb0e012-c218-426e-a2af-92fd7e229ca6")
-		)
-		(pin "2"
-			(uuid "b49d3828-192e-47be-b54d-98656a771096")
-		)
-		(instances
-			(project "Wheelbase"
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10801,6 +12651,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 57.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 57.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 57.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 57.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 57.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 57.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "531c4b36-7f29-4240-8c98-1ab62e8052a1")
 		)
@@ -10868,6 +12772,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 185.42 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 185.42 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 185.42 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 185.42 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 185.42 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 185.42 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a38a5ad-9b71-4f9f-a74b-9fae28ccb70b")
 		)
@@ -10878,6 +12836,72 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4faa64fa-3d24-4775-be50-7cc7a345cfdc")
+		(property "Reference" "#PWR095"
+			(at 105.41 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a08aeb0e-2a89-4573-ae92-c4db7324af1f")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -11001,6 +13025,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 148.59 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 148.59 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 148.59 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 148.59 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 148.59 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 148.59 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4652bb2-d43f-4119-b6aa-d74140bcbc34")
 		)
@@ -11062,6 +13140,60 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 21.59 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 21.59 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 21.59 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 21.59 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 21.59 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 21.59 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
 			(at 21.59 182.88 0)
 			(effects
 				(font
@@ -11206,6 +13338,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 92.71 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 92.71 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 92.71 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 92.71 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 92.71 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 92.71 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "94bb31d4-4e70-499d-8ede-c8c44090825b")
 		)
@@ -11342,6 +13528,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 161.29 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 161.29 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 161.29 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 161.29 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 161.29 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 161.29 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d9d9cff3-6115-470b-b829-4d621b291dff")
 		)
@@ -11352,170 +13592,6 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "1984620:1984620")
-		(at 232.41 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62093408-e101-42c4-967a-23b0c8f7e645")
-		(property "Reference" "J9"
-			(at 240.03 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1984620"
-			(at 240.03 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1984620:PHOENIX_1984620"
-			(at 251.968 66.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Phoenix Contact"
-			(at 262.128 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            PCB Terminal Screw 3.5mm 16AWG 200V 17.5A 3 Position COMBICON PT Series | Phoenix Contact 1984620\n                        \n"
-			(at 233.934 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 232.41 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 232.41 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/1984620/Phoenix+Contact/view-part/?ref=eda"
-			(at 233.934 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1984620/Phoenix+Contact/view-part/?ref=snap"
-			(at 233.934 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "1984620"
-			(at 262.128 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 262.128 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "PHOENIX"
-			(at 238.506 61.468 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b8b8041-20ed-44da-bacf-f83b435218b8")
-		)
-		(pin "2"
-			(uuid "96d9cbc7-c584-4dd5-bb8c-7dda8a24f917")
-		)
-		(pin "3"
-			(uuid "2767fa1e-32bc-4dd7-a2b0-0b616cdbd44b")
-		)
-		(instances
-			(project "Wheelbase"
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11582,72 +13658,6 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 26.67 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ef79345-433b-42fc-a796-92dea590e5bd")
-		(property "Reference" "#PWR091"
-			(at 26.67 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.67 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7be5934-784b-4d1c-a563-ca11221b2e51")
-		)
-		(instances
-			(project "Wheelbase"
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
-					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -11747,7 +13757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 124.46 21.59 0)
 			(effects
 				(font
@@ -11766,6 +13776,60 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 124.46 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 124.46 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 124.46 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 124.46 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 124.46 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 124.46 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
 			(at 124.46 21.59 0)
 			(effects
 				(font
@@ -11903,6 +13967,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 48.26 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 48.26 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 48.26 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 48.26 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 48.26 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 48.26 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7a1ec52-332b-4f02-9153-49420856e881")
 		)
@@ -11920,7 +14038,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 20.32 81.28 0)
+		(at 33.02 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11929,7 +14047,7 @@
 		(fields_autoplaced yes)
 		(uuid "73589c7d-bc32-45d6-abb1-ee81b1453249")
 		(property "Reference" "#PWR05"
-			(at 20.32 85.09 0)
+			(at 33.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11938,7 +14056,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 20.32 76.2 0)
+			(at 33.02 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11946,7 +14064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 81.28 0)
+			(at 33.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11955,7 +14073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 81.28 0)
+			(at 33.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11964,7 +14082,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 20.32 81.28 0)
+			(at 33.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11976,7 +14094,7 @@
 			(uuid "be1deccf-5f3d-44aa-9e9e-b3b9478361d9")
 		)
 		(instances
-			(project ""
+			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "#PWR05")
 					(unit 1)
@@ -12160,6 +14278,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc11d081-800b-4600-9735-d1565ad5e3a0")
 		)
@@ -12239,6 +14411,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 134.62 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 134.62 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 134.62 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 134.62 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 134.62 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 134.62 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a265e46f-2956-4fb9-b7f7-9a4fc4cfb99b")
 		)
@@ -12301,6 +14527,60 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
 			(at 68.58 44.45 0)
 			(effects
 				(font
@@ -12643,6 +14923,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 93.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 93.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 93.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 93.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 93.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 93.98 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4fa8afa5-3863-4a78-9dd2-894853e4fbe8")
 		)
@@ -12792,72 +15126,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9067fec2-a7c7-49fd-9adb-ef0320532e6c")
-		(property "Reference" "#PWR090"
-			(at 55.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fab863fe-ed73-41cc-909d-f587d37e4d72")
-		)
-		(instances
-			(project "Wheelbase"
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
-					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 134.62 191.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12989,6 +15257,375 @@
 		)
 	)
 	(symbol
+		(lib_id "MR30PW-M:MR30PW-M")
+		(at 223.52 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cd75223-6226-472a-a172-c8c839e5d668")
+		(property "Reference" "J8"
+			(at 234.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MR30PW-M"
+			(at 234.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MR30PWM"
+			(at 242.57 199.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/5fffb0d591c3b83b8e9faab5387231c6/MR30PW-M.pdf"
+			(at 242.57 299.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; MR30; male; PIN: 3; on PCBs; THT; 15A , 500VDC , -20C to 120C"
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.3"
+			(at 242.57 499.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 242.57 599.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 242.57 699.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 242.57 799.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MR30PW-M"
+			(at 242.57 899.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f718d0e6-455b-4142-ba25-b1d04d43a6e9")
+		)
+		(pin "2"
+			(uuid "b137e48f-9e2f-42ec-962a-1ba49c98ab72")
+		)
+		(pin "4"
+			(uuid "0f167cc7-7a10-4265-845b-ab235d0fbe44")
+		)
+		(pin "5"
+			(uuid "29d196cc-f14e-40f7-9af0-227d7cd692a9")
+		)
+		(pin "1"
+			(uuid "8443ac28-1bda-4aac-9483-f2d08dc3f861")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MTSW-104-09-L-S-400:MTSW-104-09-L-S-400")
+		(at 134.62 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fd8dba8-6865-4cf3-ba91-df1dbff53095")
+		(property "Reference" "J15"
+			(at 130.81 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MTSW-104-09-L-S-400"
+			(at 125.476 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MTSW-104-09-L-S-400:SAMTEC_MTSW-104-09-L-S-400"
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Conn Unshrouded Header HDR 4 POS 2.54mm Solder ST Top Entry Thru-Hole Bulk"
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MTSW-104-09-L-S-400/Samtec/view-part/?ref=eda"
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MTSW-104-09-L-S-400/Samtec/view-part/?ref=snap"
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MTSW-104-09-L-S-400"
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "01"
+			(uuid "9cba7ca5-e479-4f70-bc10-3003600c473e")
+		)
+		(pin "04"
+			(uuid "5f1395af-204d-46a9-b915-b27e10186025")
+		)
+		(pin "03"
+			(uuid "97a30f5d-b152-4022-9f72-138a2b37e247")
+		)
+		(pin "02"
+			(uuid "91a94eec-2c04-413c-b5f4-018b4a286196")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 152.4 0)
 		(unit 1)
@@ -13055,6 +15692,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 43.18 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2c8f8cb-638f-49fb-a185-b071eeedf35a")
+		(property "Reference" "#PWR091"
+			(at 36.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b2415e9-6b93-4d3b-90d7-4fffb448affd")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32F3:STM32F303RETx")
 		(at 118.11 102.87 0)
 		(unit 1)
@@ -13102,6 +15806,60 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 80KB RAM, 72 MHz, 2.0-3.6V, 51 GPIO, LQFP64"
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 118.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
 			(at 118.11 102.87 0)
 			(effects
 				(font
@@ -13496,6 +16254,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 165.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 165.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 165.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 165.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 165.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 165.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f1d0e2b5-aaeb-46c6-8262-adef15b3f1a0")
 		)
@@ -13563,6 +16375,60 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 41.91 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 41.91 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 41.91 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 41.91 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 41.91 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 41.91 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
 			(at 41.91 186.69 0)
 			(effects
 				(font
@@ -13760,6 +16626,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 29.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 29.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 29.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 29.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 29.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 29.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e959fd8d-e88a-442a-9fd4-5eb57b017c85")
 		)
@@ -13776,170 +16696,6 @@
 			(project ""
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "1984620:1984620")
-		(at 232.41 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b33afa5b-8bb8-4635-94db-898c21ce8071")
-		(property "Reference" "J8"
-			(at 240.03 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1984620"
-			(at 240.03 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "1984620:PHOENIX_1984620"
-			(at 251.968 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Phoenix Contact"
-			(at 262.128 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            PCB Terminal Screw 3.5mm 16AWG 200V 17.5A 3 Position COMBICON PT Series | Phoenix Contact 1984620\n                        \n"
-			(at 233.934 89.154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 232.41 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 232.41 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/1984620/Phoenix+Contact/view-part/?ref=eda"
-			(at 233.934 89.154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1984620/Phoenix+Contact/view-part/?ref=snap"
-			(at 233.934 89.154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "1984620"
-			(at 262.128 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 262.128 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "PHOENIX"
-			(at 238.506 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bbb13cea-d59e-4246-b52c-42194044bf4a")
-		)
-		(pin "2"
-			(uuid "f64f2f73-7c70-4dce-ba91-2bd8cea899d0")
-		)
-		(pin "3"
-			(uuid "625eb9cd-8233-4818-a9be-fce965d61e75")
-		)
-		(instances
-			(project "Wheelbase"
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -14129,6 +16885,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 162.56 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 162.56 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 162.56 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 162.56 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 162.56 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 162.56 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7d8d0b5-5cfa-4166-b587-c1bc59877dc7")
 		)
@@ -14172,7 +16982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 104.14 21.59 0)
 			(effects
 				(font
@@ -14191,6 +17001,60 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 104.14 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 104.14 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 104.14 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 104.14 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 104.14 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 104.14 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
 			(at 104.14 21.59 0)
 			(effects
 				(font
@@ -14279,7 +17143,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 19.05 30.48 0)
+		(at 44.45 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14288,7 +17152,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf0838ec-5f04-4b6e-bd86-23e72ea2f7f5")
 		(property "Reference" "#PWR031"
-			(at 19.05 36.83 0)
+			(at 44.45 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14297,7 +17161,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 35.56 0)
+			(at 44.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14305,7 +17169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 30.48 0)
+			(at 44.45 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14314,7 +17178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 30.48 0)
+			(at 44.45 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14323,7 +17187,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 30.48 0)
+			(at 44.45 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14371,7 +17235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 114.3 21.59 0)
 			(effects
 				(font
@@ -14398,6 +17262,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 114.3 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 114.3 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 114.3 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 114.3 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 114.3 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 114.3 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c11295ba-3562-4e3e-8f9c-bd774ce3c61b")
 		)
@@ -14405,203 +17323,6 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SSW-104-01-FM-D:SSW-104-01-FM-D")
-		(at 39.37 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1fe5388-c3f7-443d-a84d-392a392f6ac9")
-		(property "Reference" "J13"
-			(at 39.37 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SSW-104-01-FM-D"
-			(at 39.37 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SSW-104-01-FM-D:SAMTEC_SSW-104-01-FM-D"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samtec"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "8 Position Receptacle Connector 0.100 (2.54mm) Through Hole Gold"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/SSW-104-01-FM-D/Samtec/view-part/?ref=eda"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "R"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SSW-104-01-FM-D/Samtec/view-part/?ref=snap"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "SSW-104-01-FM-D"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Samtec"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "02"
-			(uuid "550f2c5c-0ba7-4e8b-b88c-49260eb6204a")
-		)
-		(pin "05"
-			(uuid "85001821-b1c4-4a52-94ad-6b7c57683b0a")
-		)
-		(pin "07"
-			(uuid "cd9f00b8-fa7a-44c0-91db-be50472ef691")
-		)
-		(pin "08"
-			(uuid "8e2f5595-8bd3-47cc-8a48-0cdf3dfea7cc")
-		)
-		(pin "06"
-			(uuid "e5f92d68-3311-45e2-a8d6-f1a4b6c3c00f")
-		)
-		(pin "03"
-			(uuid "57ede441-cc7f-4af6-8722-b43d427a0450")
-		)
-		(pin "01"
-			(uuid "8357dd75-f82c-4bb4-8f18-eeed9c7c5926")
-		)
-		(pin "04"
-			(uuid "25517356-61fc-406f-94e8-168411f79cb4")
-		)
-		(instances
-			(project ""
-				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
-					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -14662,6 +17383,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "46877ff2-7265-4ef2-886c-cf1b37980efc")
 		)
@@ -14672,6 +17447,130 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 185.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb1193ed-77f5-4049-be80-58cb70a40164")
+		(property "Reference" "C1"
+			(at 68.58 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 68.58 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 63.8048 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 64.77 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 64.77 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 64.77 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 64.77 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 64.77 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 64.77 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e64f9d3-7352-4b33-91ae-c343dc357e2a")
+		)
+		(pin "1"
+			(uuid "7e503659-9af1-42e8-a5ae-08ae53ff3500")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -14725,6 +17624,60 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 185.42 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 185.42 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 185.42 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 185.42 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 185.42 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 185.42 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 185.42 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14918,6 +17871,60 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 256.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 256.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 256.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 256.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 256.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 256.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15177,6 +18184,192 @@
 		)
 	)
 	(symbol
+		(lib_id "MTSW-104-09-L-S-400:MTSW-104-09-L-S-400")
+		(at 208.28 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e04173c9-3c7b-469d-a885-9af768b69c00")
+		(property "Reference" "J13"
+			(at 204.47 20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MTSW-104-09-L-S-400"
+			(at 199.136 22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MTSW-104-09-L-S-400:SAMTEC_MTSW-104-09-L-S-400"
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Samtec"
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Conn Unshrouded Header HDR 4 POS 2.54mm Solder ST Top Entry Thru-Hole Bulk"
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MTSW-104-09-L-S-400/Samtec/view-part/?ref=eda"
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MTSW-104-09-L-S-400/Samtec/view-part/?ref=snap"
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MTSW-104-09-L-S-400"
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 208.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "01"
+			(uuid "301f3ec2-a7d6-441c-ae18-f74d7ed876fd")
+		)
+		(pin "04"
+			(uuid "8ebddad0-6f1e-4729-bd41-c5ce398edc2b")
+		)
+		(pin "03"
+			(uuid "ff6d9a98-060a-428e-91b9-cca6cf0c3bba")
+		)
+		(pin "02"
+			(uuid "6afd6f02-bf0b-4ba8-b753-1a1b804509c0")
+		)
+		(instances
+			(project ""
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 227.33 36.83 0)
 		(unit 1)
@@ -15237,6 +18430,259 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XT30PW-M:XT30PW-M")
+		(at 36.83 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3d2177b-e8fe-48aa-a202-777d13c87f4a")
+		(property "Reference" "J14"
+			(at 33.02 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30PW-M"
+			(at 33.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT30:AMASS_XT30PW-M"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5 mm"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=eda"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30PW-M/AMASS/view-part/?ref=snap"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XT30PW-M"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Amass"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "XT30PW-M"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P"
+			(uuid "de88c4f7-b237-4c03-b019-c1c630243045")
+		)
+		(pin "N"
+			(uuid "66f1c3e9-03b6-4f58-b6fc-7d53221a3d50")
+		)
+		(instances
+			(project ""
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -15484,6 +18930,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0fe60e28-f42c-47b7-a182-c9a449d01542")
 		)
@@ -15553,6 +19053,60 @@
 		)
 		(property "Description" "Resistor"
 			(at 173.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 173.99 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 173.99 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 173.99 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 173.99 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 173.99 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 173.99 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15696,6 +19250,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 162.56 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 162.56 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 162.56 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 162.56 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 162.56 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 162.56 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e61bd976-a9bc-4606-af22-413d7b5857f5")
 		)
@@ -15832,6 +19440,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 173.99 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 173.99 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 173.99 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 173.99 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 173.99 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 173.99 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "60f506bc-e155-4401-bfc8-9f645935a760")
 		)
@@ -15842,6 +19504,321 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f71b7e80-2acf-40ab-93f1-eed3632c718d")
+		(property "Reference" "#PWR0105"
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e17712d-a545-4ca3-bcfd-13e474ac0f5a")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RT9013-33GB:RT9013-33GB")
+		(at 90.17 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f95d5e79-b6d0-4d6a-a419-95e3984d3d15")
+		(property "Reference" "U5"
+			(at 90.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RT9013-33GB"
+			(at 90.17 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RT9013:SOT94P279X129-5N"
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Richtek USA"
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.295 mm"
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-5 Richtek"
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/RT9013-33GB/Richtek/view-part/?ref=eda"
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Aprill 2011"
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RT9013-33GB/Richtek/view-part/?ref=snap"
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "RT9013-33GB"
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Linear Voltage Regulator IC Positive Fixed 1 Output  500mA TSOT-23-5"
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Richtek Technology"
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 90.17 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b3657ec-f6b1-4eca-8030-eff977489912")
+		)
+		(pin "3"
+			(uuid "34d8ff25-0b4f-4eb0-aab7-acab3e374ff2")
+		)
+		(pin "1"
+			(uuid "fee8980c-afda-4335-a84f-7ab51cd66988")
+		)
+		(pin "5"
+			(uuid "6ee63ee2-fd48-43fc-85a2-5917aebe5ddd")
+		)
+		(instances
+			(project ""
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -15892,6 +19869,60 @@
 		)
 		(property "Description" "Resistor"
 			(at 231.14 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 231.14 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 231.14 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 231.14 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 231.14 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 231.14 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 231.14 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16089,6 +20120,60 @@
 				(hide yes)
 			)
 		)
+		(property "DESCRIPTION" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6de0645d-09bf-410e-ac14-5e4b950a2819")
 		)
@@ -16158,6 +20243,60 @@
 		)
 		(property "Description" "Resistor"
 			(at 92.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 92.71 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 92.71 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" ""
+			(at 92.71 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 92.71 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PART_NUMBER" ""
+			(at 92.71 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 92.71 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16241,6 +20380,72 @@
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff1d4dff-97ab-4e1d-9c63-4fd7018a35e6")
+		(property "Reference" "#PWR0104"
+			(at 195.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "332f71a2-1478-489b-abea-e5776f939347")
+		)
+		(instances
+			(project "Wheelbase"
+				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -16446,6 +20651,46 @@
 				(justify left)
 			)
 		)
+		(pin "nCS" input
+			(at 195.58 133.35 180)
+			(uuid "0bd52cac-7311-461b-9945-5e2a9c96265f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDI" input
+			(at 195.58 135.89 180)
+			(uuid "20c8a1d8-73f7-48b6-bba2-f20611ddbaf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDO" input
+			(at 195.58 138.43 180)
+			(uuid "40ce4a93-7a9d-4850-beb6-84d13b54a227")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 195.58 140.97 180)
+			(uuid "31bc51f6-4bfc-40b3-8e00-96a074a5be8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
@@ -16588,6 +20833,46 @@
 				(justify left)
 			)
 		)
+		(pin "nCS" input
+			(at 195.58 64.77 180)
+			(uuid "fb56e902-5c23-4dff-84a8-472db4ca9f64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 195.58 67.31 180)
+			(uuid "dbbb8f1b-5488-4942-a052-0246335782df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDI" input
+			(at 195.58 69.85 180)
+			(uuid "496b0d11-c9b8-42ef-ad0d-f918d287ab4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDO" input
+			(at 195.58 72.39 180)
+			(uuid "d661dec5-e4a6-4f68-aeff-5190965cf39b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Wheelbase"
 				(path "/2be6f82a-ce65-4218-ba0d-0d538f990ed6"
@@ -16723,6 +21008,46 @@
 		(pin "ENABLE" input
 			(at 195.58 93.98 180)
 			(uuid "4bd7ddd5-cd30-4108-b7a7-9471b363df53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nCS" input
+			(at 195.58 97.79 180)
+			(uuid "392558d8-745e-463e-9c59-c0ffca30c874")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDI" input
+			(at 195.58 100.33 180)
+			(uuid "35cd26d1-75c6-4edd-a5b9-39da47084674")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDO" input
+			(at 195.58 102.87 180)
+			(uuid "db64dace-692c-464f-b87b-1afbf200e6e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 195.58 105.41 180)
+			(uuid "46bfb1b1-fb9b-4c25-b244-42411677e861")
 			(effects
 				(font
 					(size 1.27 1.27)

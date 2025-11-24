@@ -51,8 +51,10 @@ https://www.mouser.ee/ProductDetail/Nexperia/PRTR5V0U2X215?qs=LOCUfHb8d9sDkgY4cR
 https://www.snapeda.com/parts/1984620/Phoenix%20Contact/view-part/?ref=search&t=1984620
 
 
+### Power connector XT30PW-M
 
-
+https://www.tme.eu/ee/details/xt30pw-m/dc-uhendused/amass/ # 24V
+https://www.tme.eu/ee/details/mr30pw-m/dc-uhendused/amass/ # motor
 
 
 
